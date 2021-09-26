@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="selever.png">
+	<SubTexture name="selever-default00" x="0" y="0" width="480" height="480"/>
+	<SubTexture name="selever-smile00" x="480" y="0" width="480" height="480"/>
+	<SubTexture name="selever-moody00" x="960" y="0" width="480" height="480"/>
+	<SubTexture name="selever-laugh00" x="1440" y="0" width="480" height="480"/>
+	<SubTexture name="selever-daring00" x="1920" y="0" width="480" height="480"/>
+	<SubTexture name="selever-weary00" x="480" y="480" width="480" height="480"/>
+	<SubTexture name="selever-smug00" x="960" y="480" width="480" height="480"/>
+	<SubTexture name="selever-upset00" x="1440" y="480" width="480" height="480"/>
+	<SubTexture name="selever-angry00" x="1920" y="480" width="480" height="480"/>
+</TextureAtlas>

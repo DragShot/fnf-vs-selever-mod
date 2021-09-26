@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Selever.png">
+	<!--Made manually by RuvStyle-->
+	<SubTexture name="Selever Down0000" x="2700" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	<SubTexture name="Selever Down0001" x="3600" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	<SubTexture name="Selever Down0002" x="4500" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	
+	<SubTexture name="Selever Idle0000" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0001" x="900" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0002" x="1800" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0003" x="2700" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0004" x="3600" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0005" x="4500" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0006" x="0" y="2700" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0007" x="900" y="2700" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0008" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0009" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0010" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0011" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0012" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Idle0013" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever Right0000" x="2700" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Right0001" x="3600" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Right0002" x="4500" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever Left0000" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Left0001" x="900" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Left0002" x="1800" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever Up0000" x="0" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Up0001" x="900" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever Up0002" x="1800" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever Hey0000" x="900" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+</TextureAtlas>

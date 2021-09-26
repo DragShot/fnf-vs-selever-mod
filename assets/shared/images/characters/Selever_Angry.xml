@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Selever_Angry.png">
+	<!--Made manually by RuvStyle-->
+	<SubTexture name="Selever_Angry Down0000" x="2700" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	<SubTexture name="Selever_Angry Down0001" x="3600" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	<SubTexture name="Selever_Angry Down0002" x="4500" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="560" frameHeight="820"/>
+	
+	<SubTexture name="Selever_Angry Idle0000" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0001" x="900" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0002" x="1800" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0003" x="2700" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0004" x="2700" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0005" x="3600" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0006" x="3600" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0007" x="4500" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0008" x="4500" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0009" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0010" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0011" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0012" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Idle0013" x="0" y="0" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever_Angry Right0000" x="2700" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Right0001" x="3600" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Right0002" x="4500" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever_Angry Left0000" x="0" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Left0001" x="900" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Left0002" x="1800" y="900" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever_Angry Up0000" x="0" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Up0001" x="900" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	<SubTexture name="Selever_Angry Up0002" x="1800" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+	
+	<SubTexture name="Selever_Angry Hey0000" x="900" y="1800" width="900" height="900" frameX="200" frameY="120" frameWidth="950" frameHeight="850"/>
+</TextureAtlas>
