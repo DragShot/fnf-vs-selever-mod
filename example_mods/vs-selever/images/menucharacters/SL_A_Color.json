@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M Selever idle",
+	"confirm_anim": "M Selever idle",
+	"position": [
+		230,
+		205
+	],
+	"scale": 0.5,
+	"image": "Menu_SL_A_Color"
+}

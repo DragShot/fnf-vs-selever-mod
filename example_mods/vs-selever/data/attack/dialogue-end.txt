@@ -1,0 +1,4 @@
+L|selever:weary|Phew... alright, you happy now?
+R|bf:oops|Y... Yep.
+L|selever:upset|Good. Now get lost! I had enough of seeing your stupid face for today.
+L|selever|You do take care, Roachy. Unlike that mid-\nget, you're cool.

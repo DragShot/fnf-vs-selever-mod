@@ -1,0 +1,6 @@
+L|selever:laugh|¡Uff! Muy bien, me siento mucho mejor ahora.
+R|bf|Bap pa boop?
+L|selever:smug|Estamos atrevidos hoy, ¿verdad?
+L|selever:smug|¿Tengo que recordarte lo que pasó la última vez que te confiaste?
+R|bf:happy|Bep
+L|selever|OK, vamos por el plato principal entonces.

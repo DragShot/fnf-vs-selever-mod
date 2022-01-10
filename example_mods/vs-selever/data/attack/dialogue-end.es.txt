@@ -1,0 +1,4 @@
+L|selever:weary|Uff... bueno, ¿ya estás contento, viejo?
+R|bf:oops|Y... Yep.
+L|selever:upset|Bien. ¡Ahora piérdete! Ya me cansé de ver tu estúpida cara por hoy.
+L|selever|Tú cuídate, Cucarachón. A diferencia de ese enano, eres chévere.

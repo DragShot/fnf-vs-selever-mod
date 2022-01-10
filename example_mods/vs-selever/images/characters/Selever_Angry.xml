@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Selever_Angry.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="1" y="1" width="605" height="711"/>
+	<SubTexture name="down0001" x="1" y="1" width="605" height="711"/>
+	<SubTexture name="down0002" x="607" y="1" width="605" height="711"/>
+	<SubTexture name="down0003" x="607" y="1" width="605" height="711"/>
+	<SubTexture name="down0004" x="1213" y="1" width="605" height="711"/>
+	<SubTexture name="down0005" x="1213" y="1" width="605" height="711"/>
+	<SubTexture name="down0006" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0007" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0008" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0009" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0010" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0011" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0012" x="1819" y="1" width="605" height="711"/>
+	<SubTexture name="down0013" x="1819" y="1" width="605" height="711"/>
+	
+	<SubTexture name="downglow0000" x="2425" y="1" width="605" height="725"/>
+	<SubTexture name="downglow0001" x="2425" y="1" width="605" height="725"/>
+	<SubTexture name="downglow0002" x="3031" y="1" width="605" height="725"/>
+	<SubTexture name="downglow0003" x="3031" y="1" width="605" height="725"/>
+	<SubTexture name="downglow0004" x="1" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0005" x="1" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0006" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0007" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0008" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0009" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0010" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0011" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0012" x="607" y="727" width="605" height="725"/>
+	<SubTexture name="downglow0013" x="607" y="727" width="605" height="725"/>
+	
+	<SubTexture name="idle0000" x="1213" y="727" width="598" height="761"/>
+	<SubTexture name="idle0001" x="1213" y="727" width="598" height="761"/>
+	<SubTexture name="idle0002" x="1812" y="727" width="598" height="761"/>
+	<SubTexture name="idle0003" x="1812" y="727" width="598" height="761"/>
+	<SubTexture name="idle0004" x="2411" y="727" width="598" height="761"/>
+	<SubTexture name="idle0005" x="2411" y="727" width="598" height="761"/>
+	<SubTexture name="idle0006" x="3010" y="727" width="598" height="761"/>
+	<SubTexture name="idle0007" x="3010" y="727" width="598" height="761"/>
+	<SubTexture name="idle0008" x="1" y="1489" width="598" height="761"/>
+	<SubTexture name="idle0009" x="1" y="1489" width="598" height="761"/>
+	<SubTexture name="idle0010" x="600" y="1489" width="598" height="761"/>
+	<SubTexture name="idle0011" x="600" y="1489" width="598" height="761"/>
+	<SubTexture name="idle0012" x="600" y="1489" width="598" height="761"/>
+	<SubTexture name="idle0013" x="600" y="1489" width="598" height="761"/>
+	
+	<SubTexture name="left0000" x="1199" y="1489" width="580" height="739"/>
+	<SubTexture name="left0001" x="1199" y="1489" width="580" height="739"/>
+	<SubTexture name="left0002" x="1780" y="1489" width="580" height="739"/>
+	<SubTexture name="left0003" x="1780" y="1489" width="580" height="739"/>
+	<SubTexture name="left0004" x="2361" y="1489" width="580" height="739"/>
+	<SubTexture name="left0005" x="2361" y="1489" width="580" height="739"/>
+	<SubTexture name="left0006" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0007" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0008" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0009" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0010" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0011" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0012" x="2942" y="1489" width="580" height="739"/>
+	<SubTexture name="left0013" x="2942" y="1489" width="580" height="739"/>
+	
+	<SubTexture name="leftglow0000" x="1" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0001" x="1" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0002" x="591" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0003" x="591" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0004" x="1181" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0005" x="1181" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0006" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0007" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0008" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0009" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0010" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0011" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0012" x="1771" y="2251" width="589" height="747"/>
+	<SubTexture name="leftglow0013" x="1771" y="2251" width="589" height="747"/>
+	
+	<SubTexture name="right0000" x="2361" y="2251" width="596" height="743"/>
+	<SubTexture name="right0001" x="2361" y="2251" width="596" height="743"/>
+	<SubTexture name="right0002" x="2958" y="2251" width="596" height="743"/>
+	<SubTexture name="right0003" x="2958" y="2251" width="596" height="743"/>
+	<SubTexture name="right0004" x="1" y="2999" width="596" height="743"/>
+	<SubTexture name="right0005" x="1" y="2999" width="596" height="743"/>
+	<SubTexture name="right0006" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0007" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0008" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0009" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0010" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0011" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0012" x="598" y="2999" width="596" height="743"/>
+	<SubTexture name="right0013" x="598" y="2999" width="596" height="743"/>
+	
+	<SubTexture name="rightglow0000" x="1195" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0001" x="1195" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0002" x="1792" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0003" x="1792" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0004" x="2389" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0005" x="2389" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0006" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0007" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0008" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0009" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0010" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0011" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0012" x="2986" y="2999" width="596" height="757"/>
+	<SubTexture name="rightglow0013" x="2986" y="2999" width="596" height="757"/>
+	
+	<SubTexture name="up0000" x="1" y="3757" width="546" height="764"/>
+	<SubTexture name="up0001" x="1" y="3757" width="546" height="764"/>
+	<SubTexture name="up0002" x="548" y="3757" width="546" height="764"/>
+	<SubTexture name="up0003" x="548" y="3757" width="546" height="764"/>
+	<SubTexture name="up0004" x="1095" y="3757" width="546" height="764"/>
+	<SubTexture name="up0005" x="1095" y="3757" width="546" height="764"/>
+	<SubTexture name="up0006" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0007" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0008" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0009" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0010" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0011" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0012" x="1642" y="3757" width="546" height="764"/>
+	<SubTexture name="up0013" x="1642" y="3757" width="546" height="764"/>
+	
+	<SubTexture name="upglow0000" x="2189" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0001" x="2189" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0002" x="2736" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0003" x="2736" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0004" x="3283" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0005" x="3283" y="3757" width="546" height="779"/>
+	<SubTexture name="upglow0006" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0007" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0008" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0009" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0010" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0011" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0012" x="1" y="4537" width="546" height="779"/>
+	<SubTexture name="upglow0013" x="1" y="4537" width="546" height="779"/>
+</TextureAtlas>

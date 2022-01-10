@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "¿Qué demonios pasa con todos esos niños que comparan Attack con Megalovania?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Bo Bep"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "¡Qué ridículo! ¡Attack no suena para nada como Megalovania!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "daring",
+			"text": "¡Así es como suena un Megalovania!"
+		}
+	]
+}

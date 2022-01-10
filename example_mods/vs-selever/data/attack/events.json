@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "Iglesia",
+		"player1": "BF_SL",
+		"player2": "Selever_Angry",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Toggle Ghost Trail",
+						"dad",
+						"on"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "GF_SL",
+		"bpm": 140,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "attack"
+	}
+}

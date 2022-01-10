@@ -1,0 +1,6 @@
+L|selever:laugh|Phew! Alright, I feel much better now.
+R|bf|Bap pa boop?
+L|selever:smug|Daring today, aren't we?
+L|selever:smug|Do I need to remind you what happened the last time you made that mistake?
+R|bf:happy|Bep
+L|selever|Alright, let's go for the main course then.

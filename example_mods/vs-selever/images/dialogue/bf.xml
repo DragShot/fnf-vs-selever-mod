@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf.png">
+	<SubTexture name="bf-default00" x="960" y="0" width="480" height="480"/>
+	<SubTexture name="bf-happy00" x="480" y="0" width="480" height="480"/>
+	<SubTexture name="bf-oops00" x="0" y="0" width="480" height="480"/>
+</TextureAtlas>

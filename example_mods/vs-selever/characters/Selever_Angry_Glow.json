@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-270,
+				136
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "rightglow0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-206,
+				106
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "downglow0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-237,
+				197
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "upglow0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-174,
+				144
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "leftglow0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-225,
+				139
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-225,
+				139
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Selever_Angry",
+	"position": [
+		-310,
+		180
+	],
+	"healthicon": "Selever_Angry",
+	"flip_x": false,
+	"healthbar_colors": [
+		150,
+		35,
+		79
+	],
+	"camera_position": [
+		330,
+		-150
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

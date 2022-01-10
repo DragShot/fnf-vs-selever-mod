@@ -1,0 +1,9 @@
+L|selever|Vaya, vaya... miren lo que trajo el gato.
+R|bf|¡Beep!
+L|selever|Buscando más acción, ¿eh?
+L|selever:smug|Bueno, me llegó otra canción al buzón el mes pasado. ¿Quieres probarla?
+R|bf:happy|Boop be pi bep pa skee bop
+L|selever:moody|... 
+L|selever:angry|¿¡Qué chucha dijiste de mí, puto!?
+R|bf|Boo bap
+L|selever:moody|... C A G A S T E

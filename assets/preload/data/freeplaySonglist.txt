@@ -1,4 +1,0 @@
-Demonila:Selever:7
-Casanova:Selever:7
-Attack:Selever_Angry:7
-Attacklovania:Selever_Angry:7

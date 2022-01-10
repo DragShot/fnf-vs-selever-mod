@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "What the hell is up with all those kids com- paring Attack to Megalovania?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Bo Bep"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "That's ridiculous! Attack doesn't sound like a Megalovania at all!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "selever",
+			"boxState": "normal",
+			"expression": "daring",
+			"text": "This is what a Megalovania sounds like!"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+L|selever|Hey, lo conseguiste. Lo conseguiste sin escri- bir párrafos enteros de quejas esta vez.
+L|selever:smug|Nada mal, Cucaracho, nada mal.
+R|bf|Be boop pi pa
+L|selever:moody|Uh, ¿qué pasa?
+R|bf:happy|Pa boo bep pi skee pa
+L|selever:moody|Bueno, nunca dije que todas las canciones iban a ser nuevas, eh.
+L|selever:moody|Tampoco es como que ellos lo estuvieran haciendo por cobrar. Un mod es un mod, con eso me basta.
+R|bf|Bap pa boop
+L|selever:moody|... Cuidaría mis palabras si fuera tú, amiguito.
+L|selever:smug|A menos que quieras hacerle pasar un mal rato al Cucaracho, claro.
+R|bf|Be boop skee boo pi pa bep poo
+L|selever:moody|Viejo...
+R|bf|Be boop skee boo pi pa bep poo
+L|selever:upset|Bueno, ¿y a ti qué pitos te pasa?
+R|bf:happy|Be boop skee boo pi pa bep poo
+L|selever:upset|Sí, muy fácil para ti hablar grueso cuando tienes al Cucharacho respaldándote todo el tiempo.
+L|selever:moody|Los modders se la pasan mandándote a todo tipo de lugares, y cuando metes la pata el Cucaracho viene a sacarte de apuros.
+L|selever:moody|Mientras tanto, mamá y papá están borrados de la existencia por unos imbéciles que no pueden ni tomar una broma,
+L|selever:moody|pero muy bien que se les da eso de las funas.
+L|selever:upset|Gracias a ellos, mi hermana y yo nos queda- remos atrapados aquí... quizás para siempre.
+R|bf|Boo bap?
+L|selever:angry|¡Claro que estoy molesto! ¿Cómo esperas que eso no me moleste?
+R|bf:happy|Uuh, pa boop pi bep
+L|selever:angry|Me importa un carajo si eso es cliché, viejo. ¡TÚ empezaste! ¡Siempre armas pleito!
+L|selever:upset|Desde tu insistencia en hablar como un bebé hasta las palabras que quieres decir, de igual modo eres insoportable.
+L|selever:upset|Pero oye, ya que no se puede razonar contigo, veamos qué parece esto, ¡enano engreído!

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_SL_Color.png">	
+	<SubTexture name="M Selever idle0000" x="2425" y="1" width="617" height="754"/>
+	<SubTexture name="M Selever idle0001" x="2425" y="1" width="617" height="754"/>
+	<SubTexture name="M Selever idle0002" x="3043" y="1" width="617" height="754"/>
+	<SubTexture name="M Selever idle0003" x="3043" y="1" width="617" height="754"/>
+	<SubTexture name="M Selever idle0004" x="1" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0005" x="1" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0006" x="619" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0007" x="619" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0008" x="1237" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0009" x="1855" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0010" x="1855" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0011" x="1855" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0012" x="2473" y="756" width="617" height="754"/>
+	<SubTexture name="M Selever idle0013" x="2473" y="756" width="617" height="754"/>
+</TextureAtlas>

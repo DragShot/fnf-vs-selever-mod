@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M GF Idle",
+	"confirm_anim": "M GF Cheer",
+	"position": [
+		110,
+		150
+	],
+	"scale": 0.5,
+	"image": "Menu_GF_Color"
+}

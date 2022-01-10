@@ -1,0 +1,128 @@
+{
+	"position": [
+		50,
+		-60
+	],
+	"dialogue_pos": "left",
+	"scale": 1.5,
+	"image": "selever",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "default",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-default",
+			"idle_name": "selever-default00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-smile",
+			"idle_name": "selever-smile00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "moody",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-moody",
+			"idle_name": "selever-moody00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "laugh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-laugh",
+			"idle_name": "selever-laugh00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "daring",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-daring",
+			"idle_name": "selever-daring00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "weary",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-weary",
+			"idle_name": "selever-weary00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-smug",
+			"idle_name": "selever-smug00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "upset",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-upset",
+			"idle_name": "selever-upset00"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "angry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "selever-angry",
+			"idle_name": "selever-angry"
+		}
+	]
+}
