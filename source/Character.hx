@@ -75,6 +75,7 @@ class Character extends FlxSprite
 	public var originalFlipX:Bool = false;
 	public var healthColorArray:Array<Int> = [255, 0, 0];
 
+	public var trailAdjusted:Bool = false; //
 	public var animations:Array<FlxAnimation> = []; //
 
 	public static var DEFAULT_CHARACTER:String = 'bf'; //In case a character is missing, it will use BF on its place
@@ -326,5 +327,14 @@ class Character extends FlxSprite
 	public function quickAnimAdd(name:String, anim:String)
 	{
 		animation.addByPrefix(name, anim, 24, false);
+	}
+
+	//Selever Crossfade
+	public function adjustForTrail() {
+		if (trailAdjusted) return;
+		for (anim in this.animations) { //Ugh, why the fuck is this necessary?
+			anim.frameRate /= (anim.name == 'idle' ? 3 : 2);
+		}
+		trailAdjusted = true;
 	}
 }

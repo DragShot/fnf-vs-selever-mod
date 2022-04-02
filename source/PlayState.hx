@@ -1691,6 +1691,10 @@ class PlayState extends MusicBeatState
 			//trace('Oopsie doopsie! Paused sound');
 			FlxG.sound.music.pause();
 			vocals.pause();
+		} else { //Fix the delay on first load
+			new FlxTimer().start(0.5, function(tmr:FlxTimer) {
+				this.resyncVocals();
+			});
 		}
 
 		// Song duration in a float, useful for the time left feature
@@ -1868,49 +1872,55 @@ class PlayState extends MusicBeatState
 	//Selever Crossfade
 	var flxTrlBf:FlxTrail;
 	var flxTrlDad:FlxTrail;
+	var bfTrailVsb:Bool = false;
+	var dadTrailVsb:Bool = false;
+	var bfTrailReq:Bool = false;
+	var dadTrailReq:Bool = false;
 
-	function characterTrailSetup() {
-		/*if (flxTrlBf != null) {
+	//reset: 0: none, 1:bf, 2:dad, 3:both
+	function characterTrailSetup(reset:Int = 0) {
+		if (flxTrlBf != null && (reset == 1 || reset == 3)) {
 			remove(flxTrlBf);
 			flxTrlBf.destroy();
 			flxTrlBf = null;
+			//trace('BF Trail reset');
 		}
-		if (flxTrlDad != null) {
+		if (flxTrlDad != null && (reset == 2 || reset == 3)) {
 			remove(flxTrlDad);
 			flxTrlDad.destroy();
 			flxTrlDad = null;
-		}*/
-		var bfTrail:Bool = false, dadTrail:Bool = false;
+			//trace('Dad Trail reset');
+		}
+		//trace('trailVsb: ' + bfTrailVsb + ', '+ dadTrailVsb);
+		/*var bfTrail:Bool = false, dadTrail:Bool = false;
 		for (event in eventNotes) {
 			var arg1:String = event[2];
 			if (event[1] == 'Toggle Ghost Trail') {
-				if (!bfTrail && arg1.split(',').contains('bf')) {
+				var split = arg1.split(',');
+				if (!bfTrail && split.contains('bf')) {
 					bfTrail = true;
-				} if (!dadTrail && arg1.split(',').contains('dad')) {
+				} if (!dadTrail && split.contains('dad')) {
 					dadTrail = true;
 				}
 				if (bfTrail && dadTrail) break;
 			}
-		}
-		if (dadTrail && flxTrlDad == null) {
-			var trail = new FlxTrail(dad, null, 4, 12, 0.25, 0.069);
+		}*/
+		//trace('trailRequired: ' + bfTrailReq + ', '+ dadTrailReq);
+		if (dadTrailReq && flxTrlDad == null) {
+			var trail = new FlxTrail(dad, null, 4, 12, 0.3, 0.069);
 			trail.framesEnabled = true;
 			trail.color = FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]);//0xaa0044;
-			trail.visible = false;
+			trail.visible = dadTrailVsb;
 			insert(members.indexOf(dadGroup) - 1, trail);
-			for (anim in dad.animations) { //Srsly, why the fuck is this necessary?
-				anim.frameRate /= (anim.name == 'idle' ? 3 : 2);
-			}
+			dad.adjustForTrail();
 			flxTrlDad = trail;
-		} if (bfTrail && flxTrlBf == null) {
-			var trail = new FlxTrail(boyfriend, null, 4, 12, 0.25, 0.069);
+		} if (bfTrailReq && flxTrlBf == null) {
+			var trail = new FlxTrail(boyfriend, null, 4, 12, 0.3, 0.069);
 			trail.framesEnabled = true;
 			trail.color = FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]);
-			trail.visible = false;
+			trail.visible = bfTrailVsb;
 			insert(members.indexOf(boyfriendGroup) - 1, trail);
-			for (anim in boyfriend.animations) { //Ugh!
-				anim.frameRate /= (anim.name == 'idle' ? 3 : 2);
-			}
+			boyfriend.adjustForTrail();
 			flxTrlBf = trail;
 		}
 	}
@@ -1932,6 +1942,15 @@ class PlayState extends MusicBeatState
 
 				var newCharacter:String = event[3];
 				addCharacterToList(newCharacter, charType);
+			case 'Toggle Ghost Trail': //Selever Crossfade
+				var target = event[2].split(',');
+				if (target.length > 0) {
+					if (target.contains('bf')) {
+						bfTrailReq = true;
+					} if (target.contains('dad')) {
+						dadTrailReq = true;
+					}
+				}
 		}
 
 		if(!eventPushedMap.exists(event[1])) {
@@ -2996,6 +3015,8 @@ class PlayState extends MusicBeatState
 							boyfriend = boyfriendMap.get(value2);
 							boyfriend.alpha = lastAlpha;
 							iconP1.changeIcon(boyfriend.healthIcon);
+							
+							this.characterTrailSetup(1); //Selever Crossfade
 						}
 						setOnLuas('boyfriendName', boyfriend.curCharacter);
 
@@ -3018,6 +3039,8 @@ class PlayState extends MusicBeatState
 							}
 							dad.alpha = lastAlpha;
 							iconP2.changeIcon(dad.healthIcon);
+							
+							this.characterTrailSetup(2); //Selever Crossfade
 						}
 						setOnLuas('dadName', dad.curCharacter);
 
@@ -3067,10 +3090,10 @@ class PlayState extends MusicBeatState
 					//break; //tf you mean breaks don't work here?
 				} else {
 					if (target.contains('bf')) {
-						flxTrlBf.visible = enabled;
+						flxTrlBf.visible = bfTrailVsb = enabled;
 						trace('bf trail ' + (enabled ? 'enabled' : 'disabled'));
 					} if (target.contains('dad')) {
-						flxTrlDad.visible = enabled;
+						flxTrlDad.visible = dadTrailVsb = enabled;
 						trace('dad trail ' + (enabled ? 'enabled' : 'disabled'));
 					}
 				}

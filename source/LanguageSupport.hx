@@ -1,18 +1,54 @@
 import flixel.FlxG;
+#if MODS_ALLOWED
+import sys.FileSystem;
+import sys.io.File;
+#end
 
 using StringTools;
 
 class LanguageSupport {
     static var langs:Array<Array<String>> = [
-        ["en", "English"],
-        ["es", "Spanish (Español)"]
+        ["en", "English"]
+        //,["es", "Spanish (Español)"]
     ];
+
+    public static function refreshLangs() {
+		//var directories:Array<String> = [Paths.getPreloadPath()];
+        langs = [ ["en", "English"] ];
+        #if MODS_ALLOWED
+        var directories:Array<String> = Paths.getModDirectories();
+        /*for (weekName in WeekData.weeksList) {
+            var week = WeekData.weeksLoaded.get(weekName);
+            if (!directories.contains(week.folder))
+                directories.push(week.folder);
+        }*/
+        for (dir in directories) {
+            var target:String = haxe.io.Path.join([Paths.mods(), dir]) + '/data/langs.txt';
+            //trace('Looking for '+ target);
+            if (FileSystem.exists(target)) {
+                var content:String = File.getContent(target);
+                var lines:Array<String> = content.split('\n');
+                for (line in lines) {
+                    var split:Array<String> = line.split("|"); //<langcode>|<Language name>
+                    if (split.length < 2) continue;
+                    langs.push([split[0].trim(), split[1].trim()]);
+                    //trace('Loaded language: '+ split[0] + ' - ' + split[1]);
+                }
+            }
+        }
+        #end
+    }
 
     public static function currentLangCode():String {
         if (!Reflect.hasField(FlxG.save.data, 'lang')) {
             FlxG.save.data.lang = langs[0][0];
         }
-        return FlxG.save.data.lang;
+        for (lang in langs) {
+            if (lang[0] == FlxG.save.data.lang) {
+                return lang[0];
+            }
+        }
+        return langs[0][0];
     }
 
     public static function currentLangName() {

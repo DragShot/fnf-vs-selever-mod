@@ -4,6 +4,7 @@ DragShot::tabistyle::Programmer, Dialogues, Icons::https://www.youtube.com/c/The
 Vzer::vzer::Music composer, SFX::https://www.youtube.com/c/Vzerafael::FC8006
 
 Other contributors
+Borger::bf::OG Composer of Agitated::https://www.youtube.com/channel/UCRwIZNFJS3lSQIAyFQkQAxw::31B0D1
 AmazeinG::amazeing::New Selever sprites::https://twitter.com/AmazeinG666::7E00FF
 Blansephx::blansephx::Menu backgrounds::https://www.youtube.com/channel/UCbi6Kw-HAvO5Yr0orVUn3hw::E53535
 Mike Geno::mgeno::Composer of Casanova::https://twitter.com/electro_mike::FFC200

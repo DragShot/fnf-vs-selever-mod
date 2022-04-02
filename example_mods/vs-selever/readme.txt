@@ -1,5 +1,5 @@
 ================================================================================
- FNF: VS Selever 2.0                                       Now on Psych Engine!
+ FNF: VS Selever 2.1                                       Now on Psych Engine!
 ================================================================================
  Most features of this mod have been ported by making use of Psych Engine's
  external formats and Lua script API. As such, this mod should be playable with
@@ -9,7 +9,7 @@
  so those will not be present if this mod is played without its bundled
  executable:
  
- - Story mode dialogues (the mod uses the same autoload routine than the Kade
+ - Story mode dialogues (the mod uses the same autoload routine from the Kade
    Engine build, instead of a lua script).
  - Character-specific talk sounds.
  - Mid-Fight Masses Crossfade, also known as the Week 6's Evil Trail.
