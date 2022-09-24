@@ -74,6 +74,9 @@ class MainMenuState extends MusicBeatState
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG$altsuf'));
+		if (bg.width <= 1) { //Esto podría salir mal en otros mods
+			bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		}
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
@@ -87,6 +90,9 @@ class MainMenuState extends MusicBeatState
 		add(camFollowPos);
 
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat$altsuf'));
+		if (magenta.width <= 1) {
+			magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		}
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
@@ -124,7 +130,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
-		}
+		}	
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 

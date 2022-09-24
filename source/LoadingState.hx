@@ -6,6 +6,7 @@ import flixel.FlxG;
 import flixel.FlxState;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.math.FlxMath;
 
@@ -64,7 +65,7 @@ class LoadingState extends MusicBeatState
 			function (lib)
 			{
 				callbacks = new MultiCallback(onLoad);
-				var introComplete = callbacks.add("introComplete");
+				//var introComplete = callbacks.add("introComplete"); //It seems to be faulty?
 				if (PlayState.SONG != null) {
 					checkLoadSong(getSongPath());
 					if (PlayState.SONG.needsVoices)
@@ -77,7 +78,13 @@ class LoadingState extends MusicBeatState
 
 				var fadeTime = 0.5;
 				FlxG.camera.fade(FlxG.camera.bgColor, fadeTime, true);
-				new FlxTimer().start(fadeTime + MIN_TIME, function(_) introComplete());
+				//new FlxTimer().start(fadeTime + MIN_TIME, function(_) introComplete());
+				new FlxTimer().start(fadeTime + MIN_TIME, function(_) { //Props to TK for this alternative
+					FlxG.camera.fade(FlxColor.BLACK, 0.2, false);
+					new FlxTimer().start(0.3, function(_) {
+						FlxG.switchState(target);
+					});
+				});
 			}
 		);
 	}

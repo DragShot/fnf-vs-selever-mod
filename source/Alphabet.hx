@@ -199,7 +199,7 @@ class Alphabet extends FlxSpriteGroup
 	var consecutiveSpaces:Int = 0;
 
 	var typeTimer:FlxTimer = null;
-	public var soundPath:String = Paths.sound('dialogue'); //
+	public var soundPath:Dynamic = Paths.sound('dialogue'); //String|flash.media.Sound
 	public function startTypedText(speed:Float):Void
 	{
 		_finalText = text;

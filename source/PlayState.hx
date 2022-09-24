@@ -1073,9 +1073,9 @@ class PlayState extends MusicBeatState
 		var daSong:String = Paths.formatToSongPath(curSong);
 		if (isStoryMode && !seenCutscene)
 		{
-			if (dialogueJson != null) { //Diálogos por archivo
+			/*if (dialogueJson != null) { //Diálogos por archivo
 				startDialogue(dialogueJson);
-			} else switch (daSong)
+			} else */switch (daSong)
 			{
 				case "monster":
 					var whiteScreen:FlxSprite = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.WHITE);
@@ -1137,7 +1137,6 @@ class PlayState extends MusicBeatState
 				default:
 					startCountdown();
 			}
-			seenCutscene = true;
 		} else {
 			startCountdown();
 		}
@@ -1244,8 +1243,9 @@ class PlayState extends MusicBeatState
 
 		if(luaDebugGroup.members.length > 34) {
 			var blah = luaDebugGroup.members[34];
-			blah.destroy();
+			//blah.destroy(); //??
 			luaDebugGroup.remove(blah);
+			blah.destroy(); //Here
 		}
 		luaDebugGroup.insert(0, new DebugLuaText(text, luaDebugGroup));
 		#end
@@ -1393,11 +1393,13 @@ class PlayState extends MusicBeatState
 			if(endingSong) {
 				doof.finishThing = function() {
 					psychDialogue = null;
+					dialogueEndJson = null;
 					endSong();
 				}
 			} else {
 				doof.finishThing = function() {
 					psychDialogue = null;
+					dialogueJson = null;
 					startCountdown();
 				}
 			}
@@ -1408,8 +1410,10 @@ class PlayState extends MusicBeatState
 		} else {
 			FlxG.log.warn('Your dialogue file is badly formatted!');
 			if(endingSong) {
+				dialogueEndJson = null;
 				endSong();
 			} else {
+				dialogueJson = null;
 				startCountdown();
 			}
 		}
@@ -1519,7 +1523,14 @@ class PlayState extends MusicBeatState
 
 		inCutscene = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
-		if(ret != FunkinLua.Function_Stop) {
+		if (ret == FunkinLua.Function_Stop) {
+			seenCutscene = true; //Cancel the autoload, the script will most likely handle it
+		} else {
+			if (dialogueJson != null && isStoryMode && !seenCutscene) { //Diálogos por archivo
+				seenCutscene = true;
+				startDialogue(dialogueJson);
+				return;
+			}
 			generateStaticArrows(0);
 			generateStaticArrows(1);
 			for (i in 0...playerStrums.length) {
@@ -1675,6 +1686,7 @@ class PlayState extends MusicBeatState
 	var previousFrameTime:Int = 0;
 	var lastReportedPlayheadPosition:Int = 0;
 	var songTime:Float = 0;
+	public static var shouldResync:Bool = false; //
 
 	function startSong():Void
 	{
@@ -1692,9 +1704,12 @@ class PlayState extends MusicBeatState
 			FlxG.sound.music.pause();
 			vocals.pause();
 		} else { //Fix the delay on first load
-			new FlxTimer().start(0.5, function(tmr:FlxTimer) {
-				this.resyncVocals();
-			});
+			if (PlayState.shouldResync) {
+				new FlxTimer().start(0.33, function(tmr:FlxTimer) {
+					if (!paused) this.resyncVocals();
+				});
+				PlayState.shouldResync = false;
+			}
 		}
 
 		// Song duration in a float, useful for the time left feature
@@ -3182,7 +3197,7 @@ class PlayState extends MusicBeatState
 
 	function finishSong():Void
 	{
-		var finishCallback:Void->Void = beforeEnd; //In case you want to change it in a specific song. //
+		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song. //
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
@@ -3196,20 +3211,6 @@ class PlayState extends MusicBeatState
 			});
 		}
 	}
-
-	//Diálogos por archivo
-	public function beforeEnd() {
-		if (isStoryMode && dialogueEndJson != null) { //Diálogos por archivo
-			canPause = false;
-			endingSong = true;
-			camZooming = false;
-			inCutscene = true;
-			startDialogue(dialogueEndJson);
-		} else {
-			endSong();
-		}
-	}
-
 
 	public var transitioning = false;
 	public function endSong():Void
@@ -3266,6 +3267,17 @@ class PlayState extends MusicBeatState
 		var ret:Dynamic = FunkinLua.Function_Continue;
 		#end
 
+		if (ret != FunkinLua.Function_Stop && isStoryMode && dialogueEndJson != null) { //Diálogos por archivo
+			canPause = false;
+			endingSong = true;
+			camZooming = false;
+			inCutscene = true;
+			startDialogue(dialogueEndJson);
+			return;
+		} else {
+			dialogueEndJson = null;
+		}
+
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
@@ -3281,6 +3293,8 @@ class PlayState extends MusicBeatState
 				openChartEditor();
 				return;
 			}
+
+			PlayState.shouldResync = true; //
 
 			if (isStoryMode)
 			{

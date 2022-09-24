@@ -583,75 +583,144 @@ class TitleState extends MusicBeatState
 
 		if(!closedState) {
 			sickBeats++;
-			switch (sickBeats)
-			{
-				case 1:
-					/*#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
-					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-					#end*/
-					createCoolText(['', 'el team style', '', '']); //
-				// credTextShit.visible = true;
-				case 3:
-					/*#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('bb-panzu', 15);
-					#else
-					addMoreText('present');
-					#end*/
-					addMoreText('presenta'); //
-				// credTextShit.text += '\npresent...';
-				// credTextShit.addText();
-				case 4:
-					deleteCoolText();
-				// credTextShit.visible = false;
-				// credTextShit.text = 'In association \nwith';
-				// credTextShit.screenCenter();
-				case 5:
-					/*#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
-					#else
-					createCoolText(['In association', 'with'], -40);
-					#end*/
-					createCoolText(['Powered', 'by']); //
-				case 7:
-					/*addMoreText('newgrounds', -40);
-					ngSpr.visible = true;*/
-					addMoreText('Psych Engine'); //
-				// credTextShit.text += '\nNewgrounds';
-				case 8:
-					deleteCoolText();
-					ngSpr.visible = false;
-				// credTextShit.visible = false;
 
-				// credTextShit.text = 'Shoutouts Tom Fulp';
-				// credTextShit.screenCenter();
-				case 9:
-					createCoolText([curWacky[0]]);
-				// credTextShit.visible = true;
-				case 11:
-					addMoreText(curWacky[1]);
-				// credTextShit.text += '\nlmao';
-				case 12:
-					deleteCoolText();
-				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
-				// credTextShit.screenCenter();
-				case 13:
-					//addMoreText('Friday');
-					addMoreText('Friday Night Funkin'); //
-				// credTextShit.visible = true;
-				case 14:
-					//addMoreText('Night');
-					addMoreText('VS Selever'); //
-				// credTextShit.text += '\nNight';
-				case 15:
-					//addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
-					addMoreText('The Mod'); //
-				case 16:
-					skipIntro();
+			var brand = 'Selever';
+
+			if (brand == 'Selever') {
+				switch (sickBeats) {
+					case 1:
+						createCoolText(['', 'el team style', '', '']); //
+					case 3:
+						addMoreText('presenta'); //
+					case 4:
+						deleteCoolText();
+					case 5:
+						createCoolText(['Powered', 'by']); //
+					case 7:
+						addMoreText('Psych Engine'); //
+					case 8:
+						deleteCoolText();
+						ngSpr.visible = false;
+					case 9:
+						createCoolText([curWacky[0]]);
+					case 11:
+						addMoreText(curWacky[1]);
+					case 12:
+						deleteCoolText();
+					case 13:
+						addMoreText('Friday Night Funkin'); //
+					case 14:
+						addMoreText('VS Selever'); //
+					case 15:
+						addMoreText('The Mod'); //
+					case 16:
+						skipIntro();
+				}
+			} else if (brand == 'Chiako') {
+				switch (sickBeats) {
+					case 1:
+						#if PSYCH_WATERMARKS
+						createCoolText(['Psych Engine by'], 15);
+						#else
+						createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+						#end
+					case 3:
+						#if PSYCH_WATERMARKS
+						addMoreText('Shadow Mario', 15);
+						addMoreText('RiverOaken', 15);
+						addMoreText('bb-panzu', 15);
+						#else
+						addMoreText('present');
+						#end
+					case 4:
+						deleteCoolText();
+					case 5:
+						createCoolText(['Powered', 'by']); //
+					case 7:
+						addMoreText('Psych Engine'); //
+					case 8:
+						deleteCoolText();
+						ngSpr.visible = false;
+					case 9:
+						createCoolText([curWacky[0]]);
+					case 11:
+						addMoreText(curWacky[1]);
+					case 12:
+						deleteCoolText();
+					case 13:
+						addMoreText('Friday Night Funkin'); //
+					case 14:
+						addMoreText('VS Chiako'); //
+					case 15:
+						addMoreText('The Mod'); //
+					case 16:
+						skipIntro();
+				}
+			} else { //FNF
+				switch (sickBeats)
+				{
+					case 1:
+						#if PSYCH_WATERMARKS
+						createCoolText(['Psych Engine by'], 15);
+						#else
+						createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+						#end
+					// credTextShit.visible = true;
+					case 3:
+						#if PSYCH_WATERMARKS
+						addMoreText('Shadow Mario', 15);
+						addMoreText('RiverOaken', 15);
+						addMoreText('bb-panzu', 15);
+						#else
+						addMoreText('present');
+						#end
+					// credTextShit.text += '\npresent...';
+					// credTextShit.addText();
+					case 4:
+						deleteCoolText();
+					// credTextShit.visible = false;
+					// credTextShit.text = 'In association \nwith';
+					// credTextShit.screenCenter();
+					case 5:
+						#if PSYCH_WATERMARKS
+						createCoolText(['Not associated', 'with'], -40);
+						#else
+						createCoolText(['In association', 'with'], -40);
+						#end
+					case 7:
+						addMoreText('newgrounds', -40);
+						ngSpr.visible = true;
+					// credTextShit.text += '\nNewgrounds';
+					case 8:
+						deleteCoolText();
+						ngSpr.visible = false;
+					// credTextShit.visible = false;
+
+					// credTextShit.text = 'Shoutouts Tom Fulp';
+					// credTextShit.screenCenter();
+					case 9:
+						createCoolText([curWacky[0]]);
+					// credTextShit.visible = true;
+					case 11:
+						addMoreText(curWacky[1]);
+					// credTextShit.text += '\nlmao';
+					case 12:
+						deleteCoolText();
+					// credTextShit.visible = false;
+					// credTextShit.text = "Friday";
+					// credTextShit.screenCenter();
+					case 13:
+						addMoreText('Friday');
+					// credTextShit.visible = true;
+					case 14:
+						addMoreText('Night');
+					// credTextShit.text += '\nNight';
+					case 15:
+						addMoreText('Funkin');
+					// credTextShit.text += '\nFunkin';
+					case 16:
+						skipIntro();
+				}
 			}
 		}
 	}

@@ -18,6 +18,8 @@ import sys.io.File;
 #end
 import openfl.utils.Assets;
 
+import flash.media.Sound;
+
 using StringTools;
 
 typedef DialogueCharacterFile = {
@@ -492,8 +494,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 		textToType = curDialogue.text;
 		daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, curDialogue.speed, 0.7);
-		daText.soundPath = fetchSound(curDialogue.portrait); //
-		FlxG.sound.cache(daText.soundPath);
+		var sound = fetchSound(curDialogue.portrait); //
+		if (sound != null) {
+			daText.soundPath = sound; //
+		}
+		//FlxG.sound.cache(daText.soundPath);
 		//trace('Using sound: ' + daText.soundPath);
 		add(daText);
 
@@ -514,10 +519,10 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 	}
 
-	function fetchSound(name:String):String {
-		var sound:String = null;
-		//Audio loading from mods is not supported in Haxe, GFDI
-		/*#if (desktop && MODS_ALLOWED)
+	function fetchSound(name:String):Dynamic {
+		var sound:Dynamic = null; //String|flash.media.Sound
+		//The Flash Sound bit took me a while to figure out
+		#if (desktop && MODS_ALLOWED)
 		var paths:Array<String> = [
 			'mods/' + Paths.currentModDirectory + '/sounds/dialogue/$name.ogg',
 			'mods/sounds/dialogue/$name.ogg',
@@ -528,12 +533,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		];
 		for (path in paths) {
 			//trace(path);
-			if (FileSystem.exists(path) || Assets.exists(path)) {
+			if (FileSystem.exists(path)) {
+				sound = Sound.fromFile(path);
+				break;
+			} else if (!'$path'.startsWith('mods/') && Assets.exists(path)) {
 				sound = path;
 				break;
 			}
 		}
-		#else*/
+		#else
 		var paths:Array<String> = [
 			Paths.sound('dialogue/$name'),
 			Paths.sound('dialogue')
@@ -544,7 +552,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				break;
 			}
 		}
-		//#end
+		#end
 		return sound;
 	}
 

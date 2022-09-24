@@ -44,7 +44,8 @@ class Paths
 		'stages',
 		'weeks',
 		'fonts',
-		'scripts'
+		'scripts',
+		'libs'
 	];
 	#end
 
@@ -234,7 +235,10 @@ class Paths
 	static public function getTextFromFile(key:String, ?ignoreMods:Bool = false):String
 	{
 		#if sys
-		#if MODS_ALLOWED
+		#if MODS_ALLOWED 
+		if (!ignoreMods && FileSystem.exists(mods(currentModDirectory + '/' + key))) //This was missing
+			return File.getContent(mods(currentModDirectory + '/' + key));
+
 		if (!ignoreMods && FileSystem.exists(mods(key)))
 			return File.getContent(mods(key));
 		#end
