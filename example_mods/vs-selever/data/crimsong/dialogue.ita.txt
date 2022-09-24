@@ -1,0 +1,9 @@
+L|selever|Selever|Bene, bene, bene... guarda un po' chi c'è.
+R|bf|BF|Beep!
+L|selever|Selever|Vuoi altra azione?, uh?
+L|selever:smug|Selever|Beh, ho un'altra canzone che è arrivata il\nmese scorso. Vuoi sentire?
+R|bf:happy|BF|Boop be pi bep pa skee bop
+L|selever:moody|Selever|... 
+L|selever:angry|Selever|Che cazzo hai detto di me, figlio di puttana!?
+R|bf|BF|Boo bap
+L|selever:moody|Selever|... Te ne pentirai.

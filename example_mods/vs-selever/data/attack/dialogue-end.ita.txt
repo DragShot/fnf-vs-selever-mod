@@ -1,0 +1,4 @@
+L|selever:weary|Selever|Phew... ok, felice mo?
+R|bf:oops|BF|Y... Yep.
+L|selever:upset|Selever|Bene. Ora levati dal cazzo! Mi sono stancato\ndi vedere la tua faccia oggi.
+L|selever|Selever|Stammi bene, Roachy. Al posto di quella\nmezza calzetta, sei a posto.

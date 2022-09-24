@@ -17,8 +17,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-default",
-			"idle_name": "selever-default00"
+			"loop_name": "default",
+			"idle_name": "default00"
 		},
 		{
 			"loop_offsets": [
@@ -30,8 +30,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-smile",
-			"idle_name": "selever-smile00"
+			"loop_name": "smile",
+			"idle_name": "smile00"
 		},
 		{
 			"loop_offsets": [
@@ -43,8 +43,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-moody",
-			"idle_name": "selever-moody00"
+			"loop_name": "moody",
+			"idle_name": "moody00"
 		},
 		{
 			"loop_offsets": [
@@ -56,8 +56,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-laugh",
-			"idle_name": "selever-laugh00"
+			"loop_name": "laugh",
+			"idle_name": "laugh00"
 		},
 		{
 			"loop_offsets": [
@@ -69,8 +69,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-daring",
-			"idle_name": "selever-daring00"
+			"loop_name": "daring",
+			"idle_name": "daring00"
 		},
 		{
 			"loop_offsets": [
@@ -82,8 +82,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-weary",
-			"idle_name": "selever-weary00"
+			"loop_name": "weary",
+			"idle_name": "weary00"
 		},
 		{
 			"loop_offsets": [
@@ -95,8 +95,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-smug",
-			"idle_name": "selever-smug00"
+			"loop_name": "smug",
+			"idle_name": "smug00"
 		},
 		{
 			"loop_offsets": [
@@ -108,8 +108,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-upset",
-			"idle_name": "selever-upset00"
+			"loop_name": "upset",
+			"idle_name": "upset00"
 		},
 		{
 			"loop_offsets": [
@@ -121,8 +121,8 @@
 				0,
 				0
 			],
-			"loop_name": "selever-angry",
-			"idle_name": "selever-angry"
+			"loop_name": "angry",
+			"idle_name": "angry"
 		}
 	]
 }

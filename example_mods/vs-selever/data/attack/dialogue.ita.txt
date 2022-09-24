@@ -1,0 +1,25 @@
+L|selever|Selever|Hey, ce l'hai fatta. Ci sei riuscito senza\nscrivere paragrafi di recensioni stavolta.
+L|selever:smug|Selever|Non male, Roachy, non male.
+R|bf|BF|Be boop pi pa
+L|selever:moody|Selever|Uh, come?
+R|bf:happy|BF|Pa boo bep pi skee pa
+L|selever:moody|Selever|Beh, non ho detto che tutte le canzoni\nsarebbero state nuove.
+L|selever:moody|Selever|Non è che li pagavo, fra. M'importa na sega\ndei dettagli. Una mod è una mod.
+R|bf|BF|Bap pa boop
+L|selever:moody|Selever|... Se fossi in te mi regolerei, caro.
+L|selever:smug|Selever|A meno che Roachy non voglia avere un\nbrutto momento, eh.
+R|bf|BF|Be boop skee boo pi pa bep poo
+L|selever:moody|Selever|Fra, che?
+R|bf|BF|Be boop skee boo pi pa bep poo
+L|selever:upset|Selever|Che problemi hai?
+R|bf:happy|BF|Be boop skee boo pi pa bep poo
+L|selever:upset|Selever|Si, è così facile per te dire quelle minchiate\ncon Roachy che è qui a supportarti.
+L|selever:moody|Selever|I modders ti portano in ogni tipo di posto,\nse fai una cazzata Roachy arriva per pararti\nil culo.
+L|selever:moody|Selever|Nel mentre mamma e papà sono stati rimossi\ndall' esistenza, tutto per dei coglioni che non\nsanno scherzare.
+L|selever:upset|Selever|Grazie a loro, me e mia sorella rimarremo\nbloccati qui... forse anche per sempre.
+R|bf|BF|Boo bap?
+L|selever:angry|Selever|Certo che sono arrabbiato! Sono incazzato!\nPensavi che io rimanessi calmo?
+R|bf:happy|BF|Uuh, pa boop pi bep
+L|selever:angry|Selever|Ma io me ne sbatterei le palle anche se fosse\nun cliché, dude. Tu hai fatto! Lo fai sempre!
+L|selever:upset|Selever|Dalla tua insistenza a parlare come un\npoppante al vero significato di ciò che vuoi\ndire, sei sempre insofferente.
+L|selever:upset|Selever|Ma hey, dato che parlare con te è inutile;\nvediamo se questo ti piace, brutto pezzo di\nmerda!

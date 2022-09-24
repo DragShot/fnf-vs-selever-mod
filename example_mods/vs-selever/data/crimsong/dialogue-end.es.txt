@@ -1,7 +1,7 @@
-L|selever:laugh|¡Ja ja jah!... ¡Mírate, apenas pudiste seguir- me el paso!
-R|bf:oops|...
-L|selever:laugh|No'mbre Cucaracho, o chica, o lo que seas - la verdad no puedo ver del otro lado de la pantalla - ¡eres bárbaro!
-L|selever:smile|Date unas palmaditas al hombro, mi perra explotable namber uán.
-L|selever|Bueno, eso es todo lo que tengo ahorita, así que... ¡Adiós! ¡Diviértete! Eh...
-L|selever:smug|¿Hasta el próximo Abril de los Inocentes, supongo?
-L|selever:moody|Meh, ¿a quién engaño? Eso no va a pasar.
+L|selever:laugh|Selever|¡Ja ja ja!... ¡Mírate, apenas pudiste seguirme\nel paso!
+R|bf:oops|BF|...
+L|selever:laugh|Selever|No'mbre Cucaracho, o chica, o lo que seas -\nla verdad no puedo ver del otro lado de la\npantalla - ¡eres bárbaro!
+L|selever:smile|Selever|Date unas palmaditas al hombro, mi perra\nexplotable namber uán.
+L|selever|Selever|Bueno, eso es todo lo que tengo ahorita, así\nque... ¡Adiós! ¡Diviértete! Eh...
+L|selever:smug|Selever|¿Hasta el próximo Abril de los Inocentes,\nsupongo?
+L|selever:moody|Selever|Meh, ¿a quién engaño? Eso no va a pasar.

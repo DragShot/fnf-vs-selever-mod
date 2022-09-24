@@ -16,8 +16,8 @@
 				0,
 				0
 			],
-			"idle_name": "bf-default00",
-			"loop_name": "bf-default"
+			"idle_name": "default00",
+			"loop_name": "default"
 		},
 		{
 			"idle_offsets": [
@@ -29,8 +29,8 @@
 				0,
 				0
 			],
-			"idle_name": "bf-happy00",
-			"loop_name": "bf-happy"
+			"idle_name": "happy00",
+			"loop_name": "happy"
 		},
 		{
 			"idle_offsets": [
@@ -42,8 +42,8 @@
 				0,
 				0
 			],
-			"idle_name": "bf-oops00",
-			"loop_name": "bf-oops"
+			"idle_name": "oops00",
+			"loop_name": "oops"
 		}
 	],
 	"image": "bf"

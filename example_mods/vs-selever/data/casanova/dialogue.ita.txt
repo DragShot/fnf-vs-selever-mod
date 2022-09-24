@@ -1,0 +1,6 @@
+L|selever:laugh|Selever|Phew! Perfetto, mi sento da dio mo.
+R|bf|BF|Bap pa boop?
+L|selever:smug|Selever|C'hai voglia oggi, ne?
+L|selever:smug|Selever|Devo ricordarti cosa è successo l'ultima volta\nche hai fatto quell'errore?
+R|bf:happy|BF|Bep
+L|selever|Selever|Va bene, andiamo con la portata principale\nallora.

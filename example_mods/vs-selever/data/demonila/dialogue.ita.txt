@@ -1,0 +1,13 @@
+L|selever:laugh|Selever|PESCE D'APR-
+L|selever:moody|Selever|Aspetta, no, quella data è già andata.
+L|selever:smug|Selever|Quindi... perché sei di nuovo qui, Roachy?
+R|bf|BF|Beep boop po bap
+L|selever:smug|Selever|La mezza calzetta vuole fare un'altra\nbattaglia? Beh, potresti avere culo.
+L|selever:smile|Selever|Ho trovato un bel po' di coglioni che avevano\nvoglia di perdere tempo a comporre nuove\ncanzoni per me il mese scorso.
+L|selever|Selever|Dato che voi siete qui immagino già lo\nabbiano fatto.
+L|selever:smug|Selever|Pfft! Le cose che fa la gente per 15 minuti di\nfama...
+R|bf:happy|Selever|Boop po?
+L|selever|Selever|Si, canzoni nuove.
+L|selever|Selever|Anche se è un botto che non faccio roba del\ngenere. Ti va di farne una lenta come\nriscaldamento?
+R|bf:happy|Selever|Bop
+L|selever|Selever|Ah, buono a sapersi.

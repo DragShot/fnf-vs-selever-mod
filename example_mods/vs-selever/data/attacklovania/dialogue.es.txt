@@ -1,0 +1,4 @@
+@dialogue pos="L" portrait="selever:upset" nameTag="Selever" text="¿Qué demonios pasa con todos esos niños\nque comparan Attack con Megalovania?"
+@dialogue pos="R" portrait="bf" nameTag="BF" text="Bo Bep"
+@dialogue pos="L" portrait="selever:upset" nameTag="Selever" text="¡Qué ridículo! ¡Attack no suena para nada\ncomo Megalovania!"
+@dialogue pos="L-" portrait="selever:daring" nameTag="Selever" text="¡Así es como suena un Megalovania!" dbox="shout"

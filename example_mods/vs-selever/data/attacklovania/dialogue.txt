@@ -1,0 +1,4 @@
+@dialogue pos="L" portrait="selever:upset" nameTag="Selever" text="What the hell is up with all those kids com-\nparing Attack to Megalovania?"
+@dialogue pos="R" portrait="bf" nameTag="BF" text="Bo Bep"
+@dialogue pos="L" portrait="selever:upset" nameTag="Selever" text="That's ridiculous! Attack doesn't sound like a\nMegalovania at all!"
+@dialogue pos="L-" portrait="selever:daring" nameTag="Selever" text="This is what a Megalovania sounds like!" dbox="shout"

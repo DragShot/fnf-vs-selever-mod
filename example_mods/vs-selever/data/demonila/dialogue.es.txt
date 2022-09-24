@@ -1,13 +1,13 @@
-L|selever:laugh|ABRIL DE LOS B-
-L|selever:moody|No, espera, eso ya pasó.
-L|selever:smug|Entonces... ¿qué te trae de vuelta por aquí, Cucaracho?
-R|bf|Beep boop po bap
-L|selever:smug|¿El enano quiere entrarle a otra batalla? Bueno, puede que este sea tu día de suerte.
-L|selever:smile|Encontré a un grupo de idiotas dispuestos a perder su tiempo componiéndome un par de canciones nuevas hace un mes.
-L|selever|Dado que ustedes dos están aquí, supongo que ellos ya lo hicieron.
-L|selever:smug|¡Pfft! Las cosas que la gente hace por 15 minutos de fama estos días...
-R|bf:happy|Boop po?
-L|selever|Sí, nuevas canciones, aunque ha pasado un tiempo desde la última vez que hice este tipo de cosas.
-L|selever|Oye, ¿te parece si empezamos con una can- ción lenta para calentar?
-R|bf:happy|Bop
-L|selever|Ah, menos mal.
+L|selever:laugh|Selever|ABRIL DE LOS B-
+L|selever:moody|Selever|No, espera, eso ya pasó.
+L|selever:smug|Selever|Entonces... ¿qué te trae de vuelta por aquí,\nCucaracho?
+R|bf|BF|Beep boop po bap
+L|selever:smug|Selever|¿El enano quiere entrarle a otra batalla?\nBueno, puede que este sea tu día de suerte.
+L|selever:smile|Selever|Encontré a un grupo de idiotas dispuestos a\nperder su tiempo componiéndome un par de\ncanciones nuevas hace un mes.
+L|selever|Selever|Dado que ustedes dos están aquí, supongo\nque ellos ya lo hicieron.
+L|selever:smug|Selever|¡Pfft! Las cosas que la gente hace por 15 mi-\nnutos de fama estos días...
+R|bf:happy|BF|Boop po?
+L|selever|Selever|Sí, nuevas canciones, aunque ha pasado un\ntiempo desde la última vez que hice este tipo\nde cosas.
+L|selever|Selever|Oye, ¿te parece si empezamos con una can-\nción lenta para calentar?
+R|bf:happy|BF|Bop
+L|selever|Selever|Ah, menos mal.

@@ -1,13 +1,13 @@
-L|selever:laugh|APRIL FOO-
-L|selever:moody|Wait, no, we're past that date.
-L|selever:smug|So... what brings you back here, Roachy?
-R|bf|Beep boop po bap
-L|selever:smug|The midget wants to battle some more? Well, this may be your lucky day.
-L|selever:smile|I found a bunch of idiots who were willing to waste their time by composing a couple of new songs for me last month.
-L|selever|Since you two are here I guess they already did it.
-L|selever:smug|Pfft! The things people do for 15 minutes of fame nowadays...
-R|bf:happy|Boop po?
-L|selever|Yeah, new songs.
-L|selever|Although it's been a while since I last did this kind of thing. Do you mind if we start with a slow song for a warmup?
-R|bf:happy|Bop
-L|selever|Ah, good to know.
+L|selever:laugh|Selever|APRIL FOO-
+L|selever:moody|Selever|Wait, no, we're past that date.
+L|selever:smug|Selever|So... what brings you back here, Roachy?
+R|bf|BF|Beep boop po bap
+L|selever:smug|Selever|The midget wants to battle some more? Well,\nthis may be your lucky day.
+L|selever:smile|Selever|I found a bunch of idiots who were willing to\nwaste their time by composing a couple of\nnew songs for me last month.
+L|selever|Selever|Since you two are here I guess they already\ndid it.
+L|selever:smug|Selever|Pfft! The things people do for 15 minutes of\nfame nowadays...
+R|bf:happy|BF|Boop po?
+L|selever|Selever|Yeah, new songs.
+L|selever|Selever|Although it's been a while since I last did this\nkind of thing. Do you mind if we start with a\nslow song for a warmup?
+R|bf:happy|BF|Bop
+L|selever|Selever|Ah, good to know.
