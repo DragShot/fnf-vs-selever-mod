@@ -1,14 +1,13 @@
-VS Selever mod team
-RuvStyle::ruvstyle::Project leader, Modder, Charter::https://www.youtube.com/c/RuvStyle::c82437
+VS Selever Team
+RuvStyle::ruvstyle::Director, Modder, Charter::https://www.youtube.com/c/RuvStyle::c82437
 DragShot::dragshot::Programmer, Dialogues, Icons::https://www.youtube.com/c/TheDragShot::6F918A
-Vzer::vzer::Music composer, SFX::https://www.youtube.com/c/Vzerafael::FC8006
+Vzer::vzer::Musician, SFX::https://www.youtube.com/c/Vzerafael::FC8006
 
 
 Other contributors
-Ako::chiako::Italian dialogues::https://www.instagram.com/sarventehotmilf/::FE4BA4
-Borger::bf::OG Composer of Agitated::https://www.youtube.com/channel/UCRwIZNFJS3lSQIAyFQkQAxw::31B0D1
-AmazeinG::amazeing::New Selever sprites::https://twitter.com/AmazeinG666::7E00FF
-Blansephx::blansephx::Menu backgrounds::https://www.youtube.com/channel/UCbi6Kw-HAvO5Yr0orVUn3hw::E53535
-Mike Geno::mgeno::Composer of Casanova::https://twitter.com/electro_mike::FFC200
+Ako::chiako::Italian Dialogues::https://www.instagram.com/sarventehotmilf/::FE4BA4
+Borger::bf::OG Composer Of Agitated::https://www.youtube.com/channel/UCRwIZNFJS3lSQIAyFQkQAxw::31B0D1
+AmazeinG::amazeing::New Selever Sprites::https://twitter.com/AmazeinG666::7E00FF
+Blansephx::blansephx::Menu Backgrounds::https://www.youtube.com/channel/UCbi6Kw-HAvO5Yr0orVUn3hw::E53535
+Mike Geno::mgeno::Composer Of Casanova::https://twitter.com/electro_mike::FFC200
 Dokki.doodlez::ddoodlez::Character concept, Stage background::https://twitter.com/dokkidoodlez::F592C6
-
